@@ -19,7 +19,7 @@ type UserData struct { //structure like an object
 	numberOfTickets uint
 }
 
-var wg = sync.WaitGroup{} //for waiting purpose
+var wg = sync.WaitGroup{} 
 
 func main() {
 	greetUsers() // opening message
